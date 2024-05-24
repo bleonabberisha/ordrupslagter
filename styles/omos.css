@@ -40,3 +40,8 @@ footer {
   grid-template-columns: 1fr 1fr;
   gap: 1em;
 }
+
+img {
+  max-width: 100%;
+  gap: 1em;
+}
