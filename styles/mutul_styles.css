@@ -6,6 +6,7 @@ body {
 header {
   border: solid;
   padding: 0.2em;
+  color: brown;
 }
 
 header ul {
@@ -19,4 +20,16 @@ header ul {
 
 a {
   text-decoration: none;
+  color: black;
+}
+
+.grid_1-1-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2em;
+}
+footer {
+  background-color: white;
+  padding: 1em;
+  padding-bottom: 0%;
 }
