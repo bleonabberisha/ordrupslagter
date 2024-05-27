@@ -20,7 +20,9 @@ p {
 
 .border {
   border: solid;
-  color: brown;
+  border-color: brown;
+  padding: 1em;
+  margin: 1em;
 }
 
 .grid_1-1-1 {
