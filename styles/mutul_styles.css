@@ -7,6 +7,7 @@ header {
   border: solid;
   padding: 0.2em;
   color: brown;
+  margin: 15px;
 }
 
 header ul {
@@ -23,11 +24,18 @@ a {
   color: black;
 }
 
-.grid_1-1-1 {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 2em;
+@media (min-width: 600px) {
+  .grid_1-1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2em;
+  }
 }
+
+
+
+
+
 footer {
   background-color: white;
   padding: 1em;
