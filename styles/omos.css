@@ -46,10 +46,10 @@ img {
   gap: 1em;
 }
 
-main {
+/* main {
   width: 100%;
   max-width: 800px;
-}
+} */
 .gallery {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
