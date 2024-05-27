@@ -8,17 +8,31 @@
     <title>Forside</title>
   </head>
   <body>
-    <header>
-      <nav>
-        <ul>
-          <li><a href="index.html">Forside</a></li>
-          <li><a href="smorrebrod.html">Smørrebrod</a></li>
-          <li>
-            <a href="festmiddag.html">Festmiddag</a>
+    <header class="header">
+      <nav class="navbar">
+        <!-- <a href="#" class="nav-logo">LOGO</a> -->
+        <ul class="nav-menu">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link">Forside</a>
           </li>
-          <li><a href="grill.html">Grill</a></li>
-          <li><a href="omos.html">Om os</a></li>
+          <li class="nav-item">
+            <a href="smorrebrod.html" class="nav-link">Smørrebrod</a>
+          </li>
+          <li class="nav-item">
+            <a href="festmiddag.html" class="nav-link">Festmiddag</a>
+          </li>
+          <li class="nav-item">
+            <a href="grill.html" class="nav-link">Grill</a>
+          </li>
+          <li class="nav-item">
+            <a href="omos.html" class="nav-link">Om os</a>
+          </li>
         </ul>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
       </nav>
     </header>
     <main>
@@ -35,30 +49,31 @@
         loop
         autoplay
       ></dotlottie-player>
-      <p>
-        Vil du gerne modtage vores nyhedsbrev samt særlige tilbud? <br />
-        Tilmeld dig her!
-      </p>
-      <p>Tilmeld dig vores nyhedsbrev herunder</p>
+      <div class="border">
+        <p>
+          Vil du gerne modtage vores nyhedsbrev samt særlige tilbud? <br />
+          Tilmeld dig her!
+        </p>
 
-      <form>
-        <div>
-          <label for="full-name">Navn</label>
-          <input id="full-name" name="fname" type="text" />
-        </div>
+        <form>
+          <div>
+            <label for="full-name">Navn</label>
+            <input id="full-name" name="fname" type="text" />
+          </div>
 
-        <div>
-          <label for="email">E-mail</label>
-          <input id="email" name="email" type="email" />
-        </div>
+          <div>
+            <label for="email">E-mail</label>
+            <input id="email" name="email" type="email" />
+          </div>
 
-        <div>
-          <label for="tel">Tlf nr.</label>
-          <input id="tel" name="telefonnummer" type="tel" />
-        </div>
+          <div>
+            <label for="tel">Tlf nr.</label>
+            <input id="tel" name="telefonnummer" type="tel" />
+          </div>
 
-        <button>Tilmeld</button>
-      </form>
+          <button>Tilmeld</button>
+        </form>
+      </div>
     </main>
     <footer>
       <section class="grid_1-1-1">
@@ -81,5 +96,6 @@
         </div>
       </section>
     </footer>
+    <script src="js/javascript.js"></script>
   </body>
 </html>
