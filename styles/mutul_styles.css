@@ -114,3 +114,37 @@ footer {
     rotate: -45deg;
   }
 }
+
+.styled-form {
+  padding: 20px;
+  border-radius: 10px;
+  width: auto;
+  margin-bottom: 5px;
+}
+
+.styled-form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.styled-form input {
+  padding: 5px;
+  border-color: rgba(171, 37, 37, 1);
+  border-radius: 5px;
+  margin: 5px;
+}
+
+.styled-form button {
+  padding: 10px;
+  color: rgba(171, 37, 37, 1);
+  border: none;
+  margin: 10px;
+  background-color: #fbf7f0;
+  cursor: pointer;
+  font-size: 15px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.styled-form button:hover {
+  background-color: rgb(254, 255, 255);
+}
