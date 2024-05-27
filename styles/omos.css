@@ -45,11 +45,6 @@ img {
   max-width: 100%;
   gap: 1em;
 }
-
-/* main {
-  width: 100%;
-  max-width: 800px;
-} */
 .gallery {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -64,4 +59,12 @@ img {
 }
 footer {
   margin-top: 20px;
+}
+.video-container {
+  display: flex;
+  height: 100vh;
+}
+video {
+  max-width: 100%;
+  height: auto;
 }
