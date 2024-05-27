@@ -5,3 +5,13 @@ h1 {
 img {
   max-width: 100%;
 }
+
+p {
+  text-align: center;
+}
+
+form {
+  text-align: center;
+  margin: 10px;
+  gap: 1em;
+}

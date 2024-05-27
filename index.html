@@ -23,18 +23,41 @@
     </header>
     <main>
       <h1>Velkommen til Ordrup Slagteren</h1>
+      <script
+        src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs"
+        type="module"
+      ></script>
+
+      <dotlottie-player
+        src="https://lottie.host/6c690944-323c-4193-9098-a2c60fed9a24/yqyCAEoODH.json"
+        background="transparent"
+        speed="1"
+        loop
+        autoplay
+      ></dotlottie-player>
+      <p>
+        Vil du gerne modtage vores nyhedsbrev samt særlige tilbud? <br />
+        Tilmeld dig her!
+      </p>
       <p>Tilmeld dig vores nyhedsbrev herunder</p>
+
       <form>
-        <label for="full-name">Fulde navn</label>
-        <input id="full-name" name="fname" type="text" />
+        <div>
+          <label for="full-name">Navn</label>
+          <input id="full-name" name="fname" type="text" />
+        </div>
 
-        <label for="email">E-mail</label>
-        <input id="email" name="email" type="email" />
+        <div>
+          <label for="email">E-mail</label>
+          <input id="email" name="email" type="email" />
+        </div>
 
-        <label for="tel">Tlf nr.</label>
-        <input id="tel" name="telefonnummer" type="tel" />
+        <div>
+          <label for="tel">Tlf nr.</label>
+          <input id="tel" name="telefonnummer" type="tel" />
+        </div>
 
-        <button>Indsend</button>
+        <button>Tilmeld</button>
       </form>
     </main>
     <footer>
