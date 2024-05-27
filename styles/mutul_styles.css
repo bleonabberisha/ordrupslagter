@@ -7,6 +7,7 @@ header {
   border: solid;
   padding: 0.2em;
   color: brown;
+  margin: 15px;
 }
 
 header ul {

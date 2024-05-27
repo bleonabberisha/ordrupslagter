@@ -32,10 +32,17 @@ footer {
   padding-bottom: 0%;
 }
 
+script {
+  width: 100%;
+  height: auto;
+  margin: 10px;
+  padding: 10px;
+}
+
 @media (min-width: 750px) {
   .grid_1-1-1 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 2em;
+    gap: 1em;
   }
 }
