@@ -13,10 +13,9 @@ p {
 }
 
 ul {
-  text-align: center;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   font-style: italic;
-  list-style: none;
+  list-style-image: url(../img/kniv.png);
 }
 
 .border {
