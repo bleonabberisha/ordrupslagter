@@ -136,7 +136,7 @@ footer {
 
 .styled-form button {
   padding: 10px;
-  color: rgba(171, 37, 37, 1);
+  color: rgb(10, 9, 9);
   border: none;
   margin: 10px;
   background-color: #fbf7f0;
@@ -147,4 +147,5 @@ footer {
 
 .styled-form button:hover {
   background-color: rgb(254, 255, 255);
+  color: rgba(171, 37, 37, 1);
 }
