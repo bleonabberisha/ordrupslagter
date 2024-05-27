@@ -16,10 +16,10 @@
         gap: 1em;
     }
 
-    .grid_1-1-1 {
+    .col-container3 {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        gap: 2em;
+        gap: 1em;
       }
 
       footer {
@@ -37,7 +37,11 @@
       
 }
 
-
+h2 {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    font-style: italic;
+}
 
 img {
         max-width: 100%;
@@ -85,3 +89,24 @@ p {
     font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
     font-style: italic;
 }
+
+.border {
+    border: solid;
+    border-color: brown;
+    padding: 1em;
+    margin: 1em;
+  }
+
+  ul {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    font-style: italic;
+    list-style: none;
+  }
+
+  h4 {
+    text-align: center;
+    font-size: xx-large;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    font-style: italic;
+  }
