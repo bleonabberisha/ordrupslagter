@@ -151,3 +151,8 @@ footer {
   background-color: rgb(254, 255, 255);
   color: rgba(171, 37, 37, 1);
 }
+
+#kodkniv {
+  max-width: 30%;
+  border: none;
+}
