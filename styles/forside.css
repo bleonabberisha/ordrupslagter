@@ -4,6 +4,12 @@ h1 {
 
 img {
   max-width: 100%;
+  align-items: center;
+}
+
+#butikmaleri {
+  display: flex;
+  justify-content: center;
 }
 
 p {
