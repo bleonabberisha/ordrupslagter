@@ -39,6 +39,12 @@ footer {
   padding: 1em;
   padding-bottom: 0%;
   text-align: center;
+
+}
+
+footer p {
+  font-weight: normal;
+  font-size: medium;
 }
 
 .bar {
@@ -151,3 +157,10 @@ footer {
   background-color: rgb(254, 255, 255);
   color: rgba(171, 37, 37, 1);
 }
+
+#kodkniv {
+  max-width: 30%;
+  border: none;
+}
+
+
