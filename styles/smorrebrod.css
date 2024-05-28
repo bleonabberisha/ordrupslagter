@@ -98,10 +98,11 @@ p {
   }
 
   ul {
-    text-align: center;
+    list-style-type: circle;
     font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
     font-style: italic;
-    list-style: none;
+    
+    
   }
 
   h4 {
@@ -110,3 +111,4 @@ p {
     font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
     font-style: italic;
   }
+
