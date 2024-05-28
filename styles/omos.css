@@ -21,12 +21,6 @@ grid_1-1 {
   gap: 1em;
 }
 
-.grid_1-1-1 {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 2em;
-}
-
 footer {
   background-color: white;
   padding: 1em;
