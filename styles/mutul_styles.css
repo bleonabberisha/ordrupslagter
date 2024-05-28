@@ -39,6 +39,12 @@ footer {
   padding: 1em;
   padding-bottom: 0%;
   text-align: center;
+
+}
+
+footer p {
+  font-weight: normal;
+  font-size: medium;
 }
 
 .bar {
@@ -156,3 +162,5 @@ footer {
   max-width: 30%;
   border: none;
 }
+
+
