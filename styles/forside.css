@@ -9,6 +9,8 @@ h1 {
 img {
   max-width: 100%;
   height: auto;
+  display: block;
+  margin: 0 auto;
 }
 
 p {
@@ -28,3 +30,4 @@ form {
   margin: 10px;
   gap: 1em;
 }
+
