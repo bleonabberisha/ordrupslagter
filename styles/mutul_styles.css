@@ -39,3 +39,113 @@ footer {
   padding-bottom: 0%;
   text-align: center;
 }
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  transition: all 0.3s ease-in-out;
+  background-color: #101010;
+}
+
+.hamburger {
+  display: none;
+}
+
+.nav-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-item {
+  margin-left: rem;
+}
+
+.nav-link {
+  font-size: 1rem;
+  font-weight: 300;
+  color: rgb(26, 26, 24);
+}
+
+.nav-link:hover {
+  color: beige;
+}
+
+@media (max-width: 550px) {
+  .nav-menu {
+    position: fixed;
+    left: -150%;
+    top: 5rem;
+    flex-direction: column;
+    background-color: rgba(171, 37, 37, 1);
+    width: 100%;
+    border-radius: 10px;
+    text-align: center;
+    transition: 0.3s;
+    box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
+  }
+
+  .nav-menu.active {
+    left: 0;
+  }
+
+  .nav-item {
+    margin: 1rem 0;
+  }
+
+  .hamburger {
+    display: block;
+    cursor: pointer;
+  }
+
+  .hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .hamburger.active .bar:nth-child(1) {
+    translate: 0 8px;
+    rotate: 45deg;
+  }
+
+  .hamburger.active .bar:nth-child(3) {
+    translate: 0 -8px;
+    rotate: -45deg;
+  }
+}
+
+.styled-form {
+  padding: 20px;
+  border-radius: 10px;
+  width: auto;
+  margin-bottom: 5px;
+}
+
+.styled-form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.styled-form input {
+  padding: 5px;
+  border-color: rgba(171, 37, 37, 1);
+  border-radius: 5px;
+  margin: 5px;
+}
+
+.styled-form button {
+  padding: 10px;
+  color: rgb(10, 9, 9);
+  border: none;
+  margin: 10px;
+  background-color: #fbf7f0;
+  cursor: pointer;
+  font-size: 15px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.styled-form button:hover {
+  background-color: rgb(254, 255, 255);
+  color: rgba(171, 37, 37, 1);
+}

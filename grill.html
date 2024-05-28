@@ -8,21 +8,46 @@
     <link rel="stylesheet" href="styles/grill.css" />
   </head>
   <body>
-    <header>
-      <nav>
-        <ul>
-          <li><a href="index.html">Forside</a></li>
-          <li><a href="smorrebrod.html">Smørrebrod</a></li>
-          <li>
-            <a href="festmiddag.html">Festmiddag</a>
+    <header class="header">
+      <nav class="navbar">
+        <!-- <a href="#" class="nav-logo">LOGO</a> -->
+        <ul class="nav-menu">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link">Forside</a>
           </li>
-          <li><a href="grill.html">Grill</a></li>
-          <li><a href="omos.html">Om os</a></li>
+          <li class="nav-item">
+            <a href="smorrebrod.html" class="nav-link">Smørrebrod</a>
+          </li>
+          <li class="nav-item">
+            <a href="festmiddag.html" class="nav-link">Festmiddag</a>
+          </li>
+          <li class="nav-item">
+            <a href="grill.html" class="nav-link">Grill</a>
+          </li>
+          <li class="nav-item">
+            <a href="omos.html" class="nav-link">Om os</a>
+          </li>
         </ul>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
       </nav>
     </header>
     <main>
-      <h1>Grill</h1>
+      <script
+        src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs"
+        type="module"
+      ></script>
+
+      <dotlottie-player
+        src="https://lottie.host/5526aaeb-f34f-44c5-88dd-0c4c25efc15a/ufWmejXvgM.json"
+        background="transparent"
+        speed="1"
+        loop
+        autoplay
+      ></dotlottie-player>
       <h2>Grill selv menu - 4 slags kød</h2>
       <p>
         Grillpølser - Marineret kyllingefilet - Marineret oksekød - Marineret
@@ -81,5 +106,6 @@
         </div>
       </section>
     </footer>
+    <script src="js/javascript.js"></script>
   </body>
 </html>

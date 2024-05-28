@@ -8,6 +8,14 @@ img {
 
 p {
   text-align: center;
+  font-style: italic;
+}
+
+.border {
+  border: solid;
+  border-color: brown;
+  padding: 0.2em;
+  margin: 1em;
 }
 
 form {
