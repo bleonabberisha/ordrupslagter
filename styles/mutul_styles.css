@@ -159,8 +159,10 @@ footer p {
 }
 
 #kodkniv {
-  max-width: 30%;
+  max-width: 15%;
   border: none;
+  position: absolute;
+  
 }
 
 
