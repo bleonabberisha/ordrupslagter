@@ -8,6 +8,7 @@ header {
   padding: 0.2em;
   color: brown;
   margin: 15px;
+  font-weight: bolder;
 }
 
 header ul {
@@ -32,8 +33,6 @@ a {
     grid-template-columns: 1fr 1fr 1fr;
     gap: 2em;
   }
-
-
 }
 
 footer {
@@ -41,7 +40,6 @@ footer {
   padding: 1em;
   padding-bottom: 0%;
   text-align: center;
-
 }
 
 footer p {
@@ -164,5 +162,3 @@ footer p {
   max-width: 25%;
   border: none;
 }
-
-
